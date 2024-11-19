@@ -1,0 +1,150 @@
+/*import google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  background: #ffffff;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+}
+
+.column-left {
+  flex: 2;
+}
+.main{
+  position: relative;
+  padding: 14.35rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 100%;
+  display: flex;
+  gap: 10rem;
+  align-items: flex-start;
+}
+.main-top{
+  display: flex;
+  width: 100%;
+}
+.main-top i{
+  position: absolute;
+  right: 0;
+  margin: 10px 30px;
+  color: #60435f;
+  cursor: pointer;
+}
+.container{
+  display: flex;
+}
+nav{
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+  left: 0;
+  background: #60435f;
+  width: 230px;
+  overflow: hidden;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+.logo{
+  text-align: center;
+  display: flex;
+  margin: 10px 0 0 10px;
+}
+.logo img{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+a.dash-link{
+  position: relative;
+  color: #fffbff;
+  font-size: 14px;
+  display: table;
+  width: 600px;
+  padding: 30px;
+}
+nav.fas{
+  position: relative;
+  width: 70px;
+  height: 40px;
+  top: 14px;
+  font-size: 20px;
+  text-align: center;
+}
+.nav-item{
+  position: relative;
+  top: 2px;
+  margin-left: 10px;
+}
+a.dash-link:hover{
+  background: #6e6a6a;
+}
+.logout{
+  position: absolute;
+  bottom: 0;
+}
+.therapist_card{
+  width: 70rem;
+  height: 6rem;
+  gap: 20rem;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background: #d3cdd3;
+  margin-bottom: 10px;
+  justify-content: space-between;
+  border: #60435f;
+  box-shadow: #6e6a6a;
+}
+.job_details{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.therapist_img{
+  width: 5rem;
+  border-radius: 20rem;
+  height: 5rem;
+  background-color: #6e6a6a;
+}
+.profile_pic{
+  width: 5rem;
+  border-radius: 20rem;
+  height: 5rem;
+  background-color: #6e6a6a;
+}
+.therapist_name{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 10px;
+  gap: 20rem;
+}
+.therapy-deets{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 5px;
+  gap: 2rem;
+}
+a.option {
+  color: #60435f;
+  font-size: 15px;
+}
+.option:hover {
+  text-decoration: underline;
+}
