@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.container{
+  display: flex;
+}
+nav{
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+  left: 0;
+  background: #60435f;
+  width: 230px;
+  overflow: hidden;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+.logo{
+  text-align: center;
+  display: flex;
+  margin: 10px 0 0 10px;
+}
+.logo img{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+a.dash-link{
+  position: relative;
+  color: #fffbff;
+  font-size: 14px;
+  display: table;
+  width: 600px;
+  padding: 30px;
+}
+nav.fas{
+  position: relative;
+  width: 70px;
+  height: 40px;
+  top: 14px;
+  font-size: 20px;
+  text-align: center;
+}
+.nav-item{
+  position: relative;
+  top: 2px;
+  margin-left: 10px;
+}
+a.dash-link:hover{
+  background: #6e6a6a;
+}
+.logout{
+  position: absolute;
+  bottom: 0;
+}
+.blog-container{
+  width: 100%;
+}
+.blog-section{
+  width: 65%;
+  margin: 20px auto;
+}
+.blog-section .title{
+  width: 60%;
+  text-align: center;
+  margin: auto;
+}
+.blog-section .title h2{
+  font-size: 30px;
+  color: #60435f;
+  margin-top: 30px;
+}
+.blog-section .title p{
+  font-size: 15px; 
+}
+.cards{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap:100px;
+  margin: 30px 50px;
+}
+.cards .card{
+  width: 100%;
+  position: relative;
+}
+.image-section img{
+  width: 35%;
+  height: auto;
+}
+.content{
+  padding: 15px 20px;
+}
+.content h4{
+  font-size: 24px;
+  color: #60435f;
+  font-weight: 500;
+}
+.content p{
+  font-size: 15px;
+}
+.content a{
+  text-decoration: none;
+  color: #fffbff;
+  margin-top: 10px;
+  display: inline-block;
+  background-color: #60435f;
+  padding: 5px 15px;
+  border-radius: 10px;
+}
+.card .posted-date{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  background-color: #fffbff;
+  padding:0.5px 1px;
+}
+@media screen and (max-width:992px){
+  .cards{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width:768px){
+  .cards{
+    grid-template-columns: 1fr;
+  }
+}
