@@ -306,3 +306,6 @@ header .current-date{
   border-radius: 10px;
   margin-top: -1.52rem;
 }
+.browse-button{
+  color: #fffbff;
+}
